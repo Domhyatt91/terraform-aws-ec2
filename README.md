@@ -1,10 +1,15 @@
-# Terraform AWS EC2 Infrastructure
 
-## Overview
+# 🚀 Terraform AWS EC2 Infrastructure
 
-This project demonstrates Infrastructure as Code (IaC) using Terraform to provision an Amazon EC2 instance in AWS.
+## 📖 Overview
 
-## Technologies
+This project demonstrates how to provision AWS infrastructure using **Terraform Infrastructure as Code (IaC)**.
+
+Terraform was used to deploy an Amazon EC2 instance in AWS, while the AWS CLI provided secure authentication and Git was used for version control.
+
+---
+
+## 🛠 Technologies
 
 - Terraform
 - AWS EC2
@@ -12,14 +17,33 @@ This project demonstrates Infrastructure as Code (IaC) using Terraform to provis
 - Git
 - GitHub
 
-## Features
+---
 
-- Provision EC2 infrastructure using Terraform
-- AWS provider configuration
+## 📋 Features
+
+- Provision AWS EC2 infrastructure with Terraform
 - Infrastructure managed as code
-- Version controlled with GitHub
+- AWS CLI authentication
+- Version controlled with Git
+- Hosted on GitHub
 
-## Commands Used
+---
+
+## 🏗 Architecture
+
+```text
+Terraform
+     │
+     ▼
+AWS Provider
+     │
+     ▼
+Amazon EC2
+```
+
+---
+
+## ⚙️ Commands Used
 
 ```bash
 terraform init
@@ -28,10 +52,16 @@ terraform apply
 terraform destroy
 ```
 
-## Project Status
+---
 
-✅ Completed
+## 📸 Screenshots
 
-## Author
+Coming Soon
 
-Dominic Hyatt
+---
+
+## 👨‍💻 Author
+
+**Dominic Hyatt**
+
+Aspiring AWS & DevOps Engineer
